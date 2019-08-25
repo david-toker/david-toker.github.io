@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flag Game</title>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="countryGame.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+	</head>
+	<body>
+        <div class="container">
+            <div class="row">
+                <div id="gameConfig" class="col-md-4">
+                    <h1>Flag Game</h1>
+                    <p>how many questions?</p>
+                    <select id="numOfQuest">
+                        <option selected disabled hidden>Choose here</option>
+                        <option>10</option>
+                        <option>20</option>
+                        <option>30</option>
+                        <option>40</option>
+                        <option>50</option>
+                    </select>
+                    <button type="button" id="start">Start</button>
+                </div>
+
+                <div id="game" class="col-md-8">
+                    <img id="flagContainer">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button id="but1"></button>
+                        <button id="but2"></button>
+                        <button id="but3"></button>
+                        <button id="but4"></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	<script src="countryGame.js"></script>
+</html>
