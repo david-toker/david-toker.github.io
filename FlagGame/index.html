@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flag Game</title>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="countryGame.css">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body>
+        <div class="container">
+            <div class="row">
+                <div id="gameConfig" class="col-md-4">
+                    <h1>Flag Game</h1>
+                    <p>how many flags do you want to guess?</p>
+                    <select id="numOfQuest">
+                        <option selected disabled hidden>Choose here</option>
+                        <option>10</option>
+                        <option>20</option>
+                        <option>30</option>
+                        <option>40</option>
+                        <option>50</option>
+                    </select>
+                    <button type="button" class="btn btn-primary" id="start">Start</button>
+                </div>
+
+                <div id="game" class="col-md-8">
+
+                        <div class="card" style="width: 500px;">
+                            <img id="flagContainer" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" id="numofquestion"></h5>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-secondary" id="but1"></button>
+                                    <button type="button" class="btn btn-secondary" id="but2"></button>
+                                    <button type="button" class="btn btn-secondary" id="but3"></button>
+                                    <button type="button" class="btn btn-secondary" id="but4"></button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    <!-- <img id="flagContainer">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary" id="but1"></button>
+                        <button type="button" class="btn btn-secondary" id="but2"></button>
+                        <button type="button" class="btn btn-secondary" id="but3"></button>
+                        <button type="button" class="btn btn-secondary" id="but4"></button>
+                    </div> -->
+                    
+                </div>
+            </div>
+        </div>
+        
+
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	<script src="countryGame.js"></script>
+</html>
