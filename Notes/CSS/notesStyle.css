@@ -1,0 +1,115 @@
+
+
+body {
+    background: url(./styles/tile.jpg);
+}
+.rubric {
+    font-family: 'Nothing You Could Do', cursive;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;  
+}
+
+.writehere {
+    background: url(./styles/formbg.jpg);
+    background-repeat: repeat-y;
+    width: 600px;
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#date {
+    width: auto;
+}
+
+.in {
+    width: 400px;
+    margin-left: 85px;
+    opacity: 0.5;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+.in:hover, .in:focus {
+    opacity: 1;
+}
+
+#text {
+    margin-top: 16px;
+}
+#date {
+    margin-top: 8px;
+}
+#name {
+    margin-top: 8px;
+}
+
+.notebutton {
+    text-align:center;
+}
+
+.note {
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 250px;
+    float: left;
+    opacity: 1;
+	animation-name: noteFade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: 0.8s;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+@keyframes noteFade {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.note p {
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 150px;
+    height: 120px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.note p::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.note span {
+    margin-left: 10px; 
+    display: block;
+}
+
+.close {
+    margin-right: 25px;
+    margin-top: 15px;
+    visibility: hidden;
+}
+
+.spanClose:hover {
+    color: #ff0000;
+}
+
+.note:hover .close {
+    visibility: visible;
+}
