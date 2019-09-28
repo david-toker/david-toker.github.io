@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cryptocurrency</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="CSS/crypto_style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+		<script src="cryptonite.js"></script>
+	</head>
+	<body>
+	
+		<header class="container-fluid sticky-top" style="background-color:white">
+			<div class="row">
+				<div class="col-12 col-md-9 col-lg-10">
+					<h1>Cryptonite</h1>
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+						<a class="navbar-brand" href="#">Navbar</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto">
+								<li id="homePage" class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+								<li id="reportPage" class="nav-item"><a class="nav-link" href="#">Live Reports</a></li>
+								<li id="aboutPage" class="nav-item"><a class="nav-link" href="#">About</a></li>
+							</ul>
+							<div class="form-inline my-2 my-lg-0">
+								<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="searchCoin">
+								<button class="btn btn-outline-success my-2 my-sm-0" id="search">Search</button>
+							</div>
+						</div>
+					</nav>
+				</div>
+				<figure id="asd" class="col-md-3 col-lg-2">
+					<img src="styles/cryptoHeader1.jpg"/>
+				</figure>
+			</div>
+		</header>
+		<section class="container">
+			<div id="rowForCoins" class="row">
+
+				<div class="bcOfSpin">
+					<div class="loader">
+						<div class="inner one"></div>
+						<div class="inner two"></div>
+						<div class="inner three"></div>
+					</div>
+				</div>
+
+			</div>
+			<div id="MyPage">
+				<div class="row">
+					<figure class="col-md-3 col-sm-4 col-4">
+						<img id="me" src="styles/ya.jpeg"/>
+					</figure>
+					<div class="col-md-9 col-sm-8 col-8">
+						<h4>David Toker</h4>
+						<p>Full Stack Web Developer Student</p>
+					</div>				
+				</div>
+				<p>
+					A <a href = "https://en.wikipedia.org/wiki/Cryptocurrency" target = "_blank">cryptocurrency</a> (or crypto currency) is a digital asset designed to work as a medium of exchange that uses strong cryptography to secure financial transactions, control the creation of additional units, and verify the transfer of assets.<br/>
+				
+					Cryptocurrencies are a kind of alternative currency and digital currency (of which virtual currency is a subset). Cryptocurrencies use decentralized control as opposed to centralized digital currency and central banking systems.<br/>
+				
+					The decentralized control of each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database.<br/>
+				
+					Bitcoin, first released as open-source software in 2009, is generally considered the first decentralized cryptocurrency. Since the release of bitcoin, over 4,000 altcoins (alternative variants of bitcoin, or other cryptocurrencies) have been created.
+				</p>
+				<p>
+					This site provides information and reports about cryptocurrency rates.
+				</p>
+				<p>
+					The following list contains several examples of APIs that are used:<br/>
+				</p>
+				<ul>
+					<li>
+						<span><a href = "https://api.coingecko.com/api/v3/coins" target = "_blank">CoinGecko</a></span> API: Cryptocurrency valuation and ranking website.
+					</li>
+					<li>
+						<span><a href = "https://min-api.cryptocompare.com/documentation" target = "_blank">CryptoCompare</a></span> API: is a global cryptocurrency market data provider, giving institutional and retail investors access to real-time, high-quality, reliable market and pricing data on 5,300+ coins and 240,000+ currency pairs.
+					</li>
+				</ul>
+				<p>
+					Chart was created by <span><a href = "https://canvasjs.com/" target = "_blank">CanvasJS</a></span>. CanvasJS is an easy to use JavaScript & HTML5 Charts library built on Canvas element.
+				</p>
+				
+				<footer class="container">
+					<div class="row">
+						<p class="col-md-3">&copy; 2019 Cryptonite</p>
+						
+						<ul class="col-md-9">
+							  <li>
+								<a href="https://www.facebook.com/david.toker.5" class="fab fa-facebook" target = "_blank"></a>
+							</li>
+							  <li>
+								<a href="https://www.instagram.com/?hl=ru" class="fab fa-instagram" target = "_blank"></a>
+							</li>
+							  <li>
+								<a href="https://www.linkedin.com/in/david-toker-277622183/" class="fab fa-linkedin" target = "_blank"></a>
+							</li>
+						</ul>
+					</div>
+				</footer>
+
+
+			</div>
+			
+			<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+			<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+		</section>
+		
+
+	</body>
+</html>
