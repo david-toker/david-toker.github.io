@@ -8,4 +8,4 @@ My works
 
 [Cryptocurrency](https://david-toker.github.io/Cryptocurrency/)
 
-[Weather App](https://david-toker.github.io/WeatherApp/)
+[Weather App](https://david-toker.github.io/weatherapp/)
