@@ -7,3 +7,5 @@ My works
 [Notes](https://david-toker.github.io/Notes/)
 
 [Cryptocurrency](https://david-toker.github.io/Cryptocurrency/)
+
+[Weather App](https://david-toker.github.io/WeatherApp/)
